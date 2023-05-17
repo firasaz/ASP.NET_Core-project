@@ -1,0 +1,8 @@
+add this url to launchSettings.json file under profiles under WebApplication1 in applicationUrl variable.
+essentially add it next to http://localhost:5140.
+
+https://localhost:7286
+
+another workaround this above issue is to use the IIS Express server and delete the sslPort variable.
+
+"sslPort": 44335
